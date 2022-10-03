@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+#header {
+  color: #fff;
+  background: teal;
+  height: 15vh;
+}
+.xyz {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+#header .whatsapp_cont {
+  padding: 0px 1.8rem;
+  text-transform: capitalize;
+}
+#header .header_icon {
+  margin: 0px 1.8rem;
+}
+.header_icon .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  padding-right: 8px;
+  font-size: 14px;
+}
+.main_whatsapp_menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  height: 30px;
+  padding-top: 1.2rem;
+  padding-left: 1.7rem;
+  padding-right: 2.4rem;
+}
+.main_whatsapp_menu i {
+  font-size: 14px;
+}
+.main_whatsapp_menu a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+}
+.main_whatsapp_menu .xyz {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.main_whatsapp_menu .abc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  margin-left: 6px;
+  font-size: 12px;
+  color: #000;
+  border-radius: 50%;
+  background-color: #4cbb17;
+}
+.chat a {
+  color: #4cbb17;
+  border-bottom: #4cbb17 2px solid;
+}
+
+.msg_chats {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+.msg_chats .img_txt {
+  display: flex;
+}
+.msg_chats .txt {
+  margin-left: 0.7rem;
+}
+.msg_chats .txt p {
+  margin-top: 0.2rem;
+  text-transform: none;
+}
+.img_txt img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.img_txt h4 {
+  font-size: 14.8px;
+  text-transform: capitalize;
+}
+.img_txt p {
+  font-size: 12px;
+}
+.text_stats h4 {
+  color: teal;
+  font-size: 12px;
+  margin-left: 7.4rem;
+}
+.text_stats h5 {
+  color: gray;
+  font-size: 12px;
+  margin-left: 7rem;
+}
+.text_stats .gigs {
+  width: 68px;
+  text-align: center;
+  text-decoration: none;
+}
+.text_stats .gigs p {
+  width: 18px;
+  height: 18px;
+  border-radius: 25px;
+  background-color: teal;
+  color: #fff;
+  margin-left: 7.7rem;
+  margin-top: 0.2rem;
+  font-size: 14px;
+}
+.text_stats h5 {
+  width: 18px;
+  height: 18px;
+  border-radius: 25px;
+  color: gray;
+  margin-left: 7.4rem;
+  margin-top: 0.2rem;
+  font-size: 12px;
+}
+.img_txt .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
